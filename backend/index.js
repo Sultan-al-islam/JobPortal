@@ -29,7 +29,7 @@ app.use(cookieParser());
 // cors setup
 app.use(
     cors({
-        origin: "http://localhost:5173",
+        origin: "https://jobportal-zw1z.onrender.com",
         credentials: true,
     })
 );
